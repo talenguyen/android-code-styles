@@ -1,4 +1,4 @@
-<code_scheme name="grandcentrix">
+<code_scheme name="TikiAndroid">
   <option name="GENERATE_FINAL_LOCALS" value="true" />
   <option name="GENERATE_FINAL_PARAMETERS" value="true" />
   <option name="INSERT_INNER_CLASS_IMPORTS" value="true" />
@@ -70,9 +70,6 @@
     <option name="NAME_COUNT_TO_USE_STAR_IMPORT_FOR_MEMBERS" value="2147483647" />
     <option name="IMPORT_NESTED_CLASSES" value="true" />
   </JetCodeStyleSettings>
-  <MarkdownNavigatorCodeStyleSettings>
-    <option name="RIGHT_MARGIN" value="-1" />
-  </MarkdownNavigatorCodeStyleSettings>
   <Objective-C>
     <option name="INDENT_NAMESPACE_MEMBERS" value="0" />
     <option name="INDENT_C_STRUCT_MEMBERS" value="2" />
