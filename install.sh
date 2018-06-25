@@ -7,8 +7,10 @@ echo ""
 LATEST_CODE_STYLE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/codestyles/TikiAndroid.xml"
 for TARGET_DIR in $HOME/Library/Preferences/AndroidStudio*         \
                   $HOME/Library/Preferences/AndroidStudioPreview*  \
+                  $HOME/Library/Preferences/IdeaIC*                \
                   ~/.AndroidStudio*/config                         \
-                  ~/.AndroidStudioPreview*/config
+                  ~/.AndroidStudioPreview*/config                  \
+                  ~/.IdeaIC*/config                         
 
 do
   if [[ -d $TARGET_DIR ]]; then
