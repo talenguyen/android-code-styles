@@ -1,10 +1,10 @@
 #!/bin/bash
-# Installs Tiki AndroidStudio Code Style into your AndroidStudio codestyles folder.
+# Installs Kotlin AndroidStudio Code Style into your AndroidStudio codestyles folder.
 
-echo "Installing Tiki AndroidStudio code style..."
+echo "Installing Kotlin AndroidStudio code style..."
 echo ""
 
-LATEST_CODE_STYLE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/codestyles/TikiAndroid.xml"
+LATEST_CODE_STYLE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/codestyles/KotlinAndroid.xml"
 for TARGET_DIR in $HOME/Library/Preferences/AndroidStudio*         \
                   $HOME/Library/Preferences/IdeaIC*                \
                   ~/.AndroidStudio*/config                         \
@@ -23,4 +23,4 @@ done
 
 echo ""
 echo "Done."
-echo "Restart AndroidStudio. Go to Preferences->Editor->Code Style and apply Scheme 'TikiAndroid'."
+echo "Restart AndroidStudio. Go to Preferences->Editor->Code Style and apply Scheme 'KotlinAndroid'."
